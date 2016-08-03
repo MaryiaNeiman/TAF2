@@ -84,7 +84,7 @@ namespace Tests2
             st.PrintMessage();
 
         }
-        
+        [Ignore("")]
         [Test]
         public void MyTestMethod3NUnit()
         {
@@ -148,7 +148,7 @@ namespace Tests2
             GeneralPageStep.DeleteSignature();
         }
 
-        [Ignore("")]
+       
         [Test]
         public void MyTestMethod5NUnit()
         {
