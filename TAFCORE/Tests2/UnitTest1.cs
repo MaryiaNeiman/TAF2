@@ -45,7 +45,7 @@ namespace Tests2
             LoginPageStep.OpenGmail();
         }
 
-        
+        [Ignore("")]
         [Test]
         public void MyTestMethod1NUnit()
         {
@@ -99,6 +99,7 @@ namespace Tests2
 
 
         }
+        [Ignore("")]
         [Test]
         public void MyTestMethod4NUnit()
         {
@@ -113,7 +114,7 @@ namespace Tests2
             //clear
             ThemePageStep.CloseWindow();
         }
-        
+        [Ignore("")]
         [Test]
         public void MyTestMethod11NUnit()
         {
@@ -132,7 +133,7 @@ namespace Tests2
             Assert.IsTrue(InBoxPageStep.CheckLetter(user2.Email, "Test6"));
         }
 
-       
+        [Ignore("")]
         [Test]
         public void MyTestMethod12NUnit()
         {
@@ -147,7 +148,7 @@ namespace Tests2
             GeneralPageStep.DeleteSignature();
         }
 
-        
+        [Ignore("")]
         [Test]
         public void MyTestMethod5NUnit()
         {

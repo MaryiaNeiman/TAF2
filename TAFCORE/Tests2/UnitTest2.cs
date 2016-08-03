@@ -41,7 +41,7 @@ namespace Tests2
 
         }
 
-      
+        [Ignore("")]
         [Test]
         public void MyTestMethod2()
         {

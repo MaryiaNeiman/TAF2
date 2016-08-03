@@ -15,3 +15,20 @@ C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\FTP\bin\Deb
 C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\FTP\obj\Debug\FTP.Resource1.resources
 C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\FTP\obj\Debug\FTP.csproj.GenerateResource.Cache
 C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\FTP\obj\Debug\FTP.csprojResolveAssemblyReference.cache
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\bin\Debug\FTP.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\bin\Debug\FTP.pdb
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\bin\Debug\TAFCORE.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\bin\Debug\WebDriver.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\bin\Debug\log4net.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\bin\Debug\WebDriver.Support.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\bin\Debug\TAFCORE.pdb
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\bin\Debug\WebDriver.xml
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\bin\Debug\log4net.xml
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\bin\Debug\WebDriver.Support.xml
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\obj\Debug\FTP.csprojResolveAssemblyReference.cache
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\obj\Debug\FTP.Resource1.resources
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\obj\Debug\FTP.csproj.GenerateResource.Cache
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\obj\Debug\FTP.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\FTP\obj\Debug\FTP.pdb
