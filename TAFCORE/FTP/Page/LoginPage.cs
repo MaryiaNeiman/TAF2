@@ -35,7 +35,8 @@ namespace FTP.Page
             //Link = new Link();
             //Link.by = (By.XPath("//a[@id='account-chooser-link']"));
             //link.by = (By.XPath("//a[contains(.,'Sign in with a different account']"));
-        }
+
+          }
 
         public bool IsEmailTBDisplayedAndEnable()
         {

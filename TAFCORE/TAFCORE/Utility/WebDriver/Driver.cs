@@ -12,7 +12,7 @@ namespace TAFCORE.Utility.WebDriver
 {
     public class Driver
     {
-        private static IWebDriver driverInstance = CreateDriver();
+        private static IWebDriver driverInstance = null;// = CreateDriver();
 
 
 
@@ -28,6 +28,15 @@ namespace TAFCORE.Utility.WebDriver
             }
         }
 
+        public static void InitializeDriver()
+        {
+            driverInstance = CreateDriver();
+        }
+
+        public static void CloseDriver()
+        {
+            driverInstance.Close();
+        }
 
         //public static void Close()
         //{
