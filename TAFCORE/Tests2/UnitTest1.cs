@@ -20,13 +20,13 @@ namespace Tests2
         [TearDown]
         public void TestCleanup()
         {
-            //LoggerHandler.WriteToLog("Start TestCleanup");
-            //InBoxPageStep.SignOutAccount();
-            //LoginPageStep.SignIn(user1.Email, user1.Password);
-            //InBoxPageStep.GoToSpam();
-            //InBoxPageStep.MoveMailFromSpam(user1.Email);
-            //InBoxPageStep.DeleteAllMail();
-            //InBoxPageStep.SignOutAccount();
+            LoggerHandler.WriteToLog("Start TestCleanup");
+            InBoxPageStep.SignOutAccount();
+            LoginPageStep.SignIn(user1.Email, user1.Password);
+            InBoxPageStep.GoToSpam();
+            InBoxPageStep.MoveMailFromSpam(user1.Email);
+            InBoxPageStep.DeleteAllMail();
+            InBoxPageStep.SignOutAccount();
             /*LoginPageStep.SignIn(user2.Email, user2.Password);
             InBoxPageStep.DeleteAllMail();
             LoginPageStep.SignIn(user3.Email, user3.Password);
