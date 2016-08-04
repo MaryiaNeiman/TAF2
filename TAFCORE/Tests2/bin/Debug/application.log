@@ -609,3 +609,19 @@ OpenQA.Selenium.WebDriverException: Unexpected error. Element is not clickable a
 2016-08-04 13:57:29,670 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonDelete
 2016-08-04 13:57:29,822 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
 2016-08-04 13:57:31,029 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 16:37:42,447 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod4NUnit
+2016-08-04 16:37:42,756 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 16:37:43,333 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 16:37:44,160 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 16:37:44,822 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 16:37:50,544 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkThemes Click
+2016-08-04 16:38:29,935 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod4NUnit
+2016-08-04 16:38:33,055 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 16:38:33,639 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 16:38:34,210 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 16:38:34,793 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 16:38:40,256 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkThemes Click
+2016-08-04 16:38:43,436 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkSetThemes Click
+2016-08-04 16:38:44,847 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonMyPhoto
+2016-08-04 16:38:46,338 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonUploadPhoto
+2016-08-04 16:38:47,715 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSelectedPhotoFromComputer

@@ -48,7 +48,7 @@ namespace Tests2
             LoginPageStep.OpenGmail();
         }
 
-       
+        
         [Test]
         public void MyTestMethod1NUnit()
         {
@@ -80,19 +80,26 @@ namespace Tests2
 
 
         }
-       
         [Ignore("")]
+        [Test]
+        public void TestLogger()
+        {
+            Step st = new Step();
+            st.PrintMessage();
+
+        }
+        
         [Test]
         public void MyTestMethod3NUnit()
         {
-            var path = Environment.CurrentDirectory;
-            string path2 = $@"{path}\1.rar";
+            //var path = Environment.CurrentDirectory;
+            //string path2 = $@"{path}\1.rar";
             LoggerHandler.WriteToLog("Start MyTestMethod3NUnit");
             //1           
             LoginPageStep.SignIn(user1.Email, user1.Password);
             //2,3,4
-            //InBoxPageStep.SendMassageWithAttach(user2.Email, "Test5", "File", Resource1.PathToBigFile);
-            InBoxPageStep.SendMassageWithAttach(user2.Email, "Test5", "File", path2);
+            InBoxPageStep.SendMassageWithAttach(user2.Email, "Test5", "File", Resource1.PathToBigFile);
+            //InBoxPageStep.SendMassageWithAttach(user2.Email, "Test5", "File", path2);
             //allert
             Assert.IsTrue(InBoxPageStep.AlertIsPresent());
             //clear
@@ -100,17 +107,19 @@ namespace Tests2
             LoggerHandler.WriteToLog("Finish MyTestMethod2NUnit");
 
         }
-        [Ignore("")]
+        
         [Test]
         public void MyTestMethod4NUnit()
         {
+            string Path = TestContext.CurrentContext.TestDirectory;
             LoggerHandler.WriteToLog("Start MyTestMethod4NUnit");
             //1           
             LoginPageStep.SignIn(user2.Email, user2.Password);
             InBoxPageStep.ChooseSettings();
             //2
             SettingPageStep.GoToThemes();
-            ThemePageStep.SetTheme(Resource1.Theme);
+            //ThemePageStep.SetTheme(Resource1.Theme);
+            ThemePageStep.SetTheme(Path+"\\log.jpg");
             //assert
             Assert.IsTrue(ThemePageStep.CheckMessageIsPresent());
             //clear
@@ -138,7 +147,7 @@ namespace Tests2
             LoggerHandler.WriteToLog("Finish MyTestMethod11NUnit");
         }
 
-        
+       
         [Test]
         public void MyTestMethod12NUnit()
         {
@@ -155,7 +164,7 @@ namespace Tests2
             LoggerHandler.WriteToLog("Finish MyTestMethod12NUnit");
         }
 
-        
+       
         [Test]
         public void MyTestMethod5NUnit()
         {
