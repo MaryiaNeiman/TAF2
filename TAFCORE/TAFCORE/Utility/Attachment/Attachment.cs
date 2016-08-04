@@ -13,11 +13,14 @@ namespace TAFCORE.Utility.Attachment
 
         public static void AttachFile(string path)
         {
-            IAutoItX3 autoIT = new AutoItX3();
-            autoIT.WinActivate("File Upload");
-            autoIT.Send(path);
-            Thread.Sleep(3000);
-            autoIT.Send("{ENTER}");
+            //IAutoItX3 autoIT = new AutoItX3();
+            //autoIT.WinActivate("File Upload");
+            //autoIT.Send(path);
+            //Thread.Sleep(3000);
+            //autoIT.Send("{ENTER}");
+            System.Windows.Forms.SendKeys.SendWait(path);
+            Thread.Sleep(1000);
+            System.Windows.Forms.SendKeys.SendWait("{ENTER}");
             Thread.Sleep(5000);
         }
     }
