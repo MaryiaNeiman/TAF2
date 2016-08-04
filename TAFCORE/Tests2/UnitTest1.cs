@@ -48,7 +48,7 @@ namespace Tests2
             LoginPageStep.OpenGmail();
         }
 
-        [Ignore("")]
+       
         [Test]
         public void MyTestMethod1NUnit()
         {
@@ -80,15 +80,8 @@ namespace Tests2
 
 
         }
+       
         [Ignore("")]
-        [Test]
-        public void TestLogger()
-        {
-            Step st = new Step();
-            st.PrintMessage();
-
-        }
-        
         [Test]
         public void MyTestMethod3NUnit()
         {
@@ -124,7 +117,7 @@ namespace Tests2
             ThemePageStep.CloseWindow();
             LoggerHandler.WriteToLog("Finish MyTestMethod4NUnit");
         }
-        [Ignore("")]
+       
         [Test]
         public void MyTestMethod11NUnit()
         {
@@ -145,7 +138,7 @@ namespace Tests2
             LoggerHandler.WriteToLog("Finish MyTestMethod11NUnit");
         }
 
-        [Ignore("")]
+        
         [Test]
         public void MyTestMethod12NUnit()
         {
@@ -162,7 +155,7 @@ namespace Tests2
             LoggerHandler.WriteToLog("Finish MyTestMethod12NUnit");
         }
 
-        [Ignore("")]
+        
         [Test]
         public void MyTestMethod5NUnit()
         {

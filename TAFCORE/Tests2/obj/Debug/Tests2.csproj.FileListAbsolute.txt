@@ -21,3 +21,26 @@ C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\Tests2\obj\
 C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\Tests2\obj\Debug\Tests2.pdb
 C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\Tests2\bin\Debug\Tests2.dll.config
 C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\Tests2\obj\Debug\Tests2.csprojResolveAssemblyReference.cache
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\Tests2.dll.config
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\Tests2.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\Tests2.pdb
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\FTP.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\nunit.framework.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\TAFCORE.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\WebDriver.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\log4net.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\WebDriver.Support.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\FTP.pdb
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\nunit.framework.xml
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\TAFCORE.pdb
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\WebDriver.xml
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\log4net.xml
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\bin\Debug\WebDriver.Support.xml
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\obj\Debug\Tests2.csprojResolveAssemblyReference.cache
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\obj\Debug\Tests2.Resource1.resources
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\obj\Debug\Tests2.csproj.GenerateResource.Cache
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\obj\Debug\Tests2.dll
+C:\Users\Maryia_Neiman\TAF2\TAFCORE\Tests2\obj\Debug\Tests2.pdb
