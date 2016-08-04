@@ -625,3 +625,27 @@ OpenQA.Selenium.WebDriverException: Unexpected error. Element is not clickable a
 2016-08-04 16:38:44,847 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonMyPhoto
 2016-08-04 16:38:46,338 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonUploadPhoto
 2016-08-04 16:38:47,715 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSelectedPhotoFromComputer
+2016-08-04 16:54:10,480 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod4NUnit
+2016-08-04 16:54:10,808 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 16:54:11,541 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 16:54:12,268 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 16:54:12,907 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 16:54:19,666 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkThemes Click
+2016-08-04 16:54:21,212 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkSetThemes Click
+2016-08-04 16:54:22,561 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonMyPhoto
+2016-08-04 16:54:24,650 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonUploadPhoto
+2016-08-04 16:54:25,337 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSelectedPhotoFromComputer
+2016-08-04 16:54:34,849 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonClose
+2016-08-04 16:54:35,352 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonClose2
+2016-08-04 16:54:35,352 INFO TAFCORE.Utility.Logger.LoggerHandler - Finish MyTestMethod4NUnit
+2016-08-04 16:54:35,353 INFO TAFCORE.Utility.Logger.LoggerHandler - Start TestCleanup
+2016-08-04 16:54:35,601 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 16:54:36,873 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 16:54:41,185 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Account Chooser Link  Click
+2016-08-04 16:54:41,742 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 16:54:42,052 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 16:54:42,185 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 16:54:44,545 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 16:54:45,230 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 16:55:13,663 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 16:55:14,897 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
