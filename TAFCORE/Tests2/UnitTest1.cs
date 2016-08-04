@@ -2,6 +2,8 @@
 using NUnit.Framework;
 using FTP.BusinessObject;
 using FTP.Steps;
+using TAFCORE.Utility.Logger;
+using System.IO;
 namespace Tests2
 {
     [TestFixture]
@@ -18,6 +20,7 @@ namespace Tests2
         [TearDown]
         public void TestCleanup()
         {
+            LoggerHandler.WriteToLog("Start TestCleanup");
             InBoxPageStep.SignOutAccount();
             LoginPageStep.SignIn(user1.Email, user1.Password);
             InBoxPageStep.GoToSpam();
@@ -45,10 +48,11 @@ namespace Tests2
             LoginPageStep.OpenGmail();
         }
 
-       
+        [Ignore("")]
         [Test]
         public void MyTestMethod1NUnit()
         {
+            LoggerHandler.WriteToLog("Start MyTestMethod1NUnit");
             //1
 
             LoginPageStep.SignIn(user2.Email, user2.Password);
@@ -72,7 +76,7 @@ namespace Tests2
             //assert
             Assert.IsTrue(InBoxPageStep.CheckLetter(user2.Email, "Test2"));
             //clear
-
+            LoggerHandler.WriteToLog("Finish MyTestMethod1NUnit");
 
 
         }
@@ -84,25 +88,30 @@ namespace Tests2
             st.PrintMessage();
 
         }
-        [Ignore("")]
+        
         [Test]
         public void MyTestMethod3NUnit()
         {
+            var path = Environment.CurrentDirectory;
+            string path2 = $@"{path}\1.rar";
+            LoggerHandler.WriteToLog("Start MyTestMethod3NUnit");
             //1           
             LoginPageStep.SignIn(user1.Email, user1.Password);
             //2,3,4
-            InBoxPageStep.SendMassageWithAttach(user2.Email, "Test5", "File", Resource1.PathToBigFile);
+            //InBoxPageStep.SendMassageWithAttach(user2.Email, "Test5", "File", Resource1.PathToBigFile);
+            InBoxPageStep.SendMassageWithAttach(user2.Email, "Test5", "File", path2);
             //allert
             Assert.IsTrue(InBoxPageStep.AlertIsPresent());
             //clear
             InBoxPageStep.CancelAlert();
-
+            LoggerHandler.WriteToLog("Finish MyTestMethod2NUnit");
 
         }
         [Ignore("")]
         [Test]
         public void MyTestMethod4NUnit()
         {
+            LoggerHandler.WriteToLog("Start MyTestMethod4NUnit");
             //1           
             LoginPageStep.SignIn(user2.Email, user2.Password);
             InBoxPageStep.ChooseSettings();
@@ -113,12 +122,14 @@ namespace Tests2
             Assert.IsTrue(ThemePageStep.CheckMessageIsPresent());
             //clear
             ThemePageStep.CloseWindow();
+            LoggerHandler.WriteToLog("Finish MyTestMethod4NUnit");
         }
-        
+        [Ignore("")]
         [Test]
         public void MyTestMethod11NUnit()
         {
-
+           
+            LoggerHandler.WriteToLog("Start MyTestMethod11NUnit");
             LoginPageStep.SignIn(user2.Email, user2.Password);
             //2
             InBoxPageStep.SendMassage(user1.Email, "Test6", "Hello");
@@ -131,12 +142,14 @@ namespace Tests2
             InBoxPageStep.MoveMailFromSpam(user2.Email);
             InBoxPageStep.GoToInBoxPage();
             Assert.IsTrue(InBoxPageStep.CheckLetter(user2.Email, "Test6"));
+            LoggerHandler.WriteToLog("Finish MyTestMethod11NUnit");
         }
 
-        
+        [Ignore("")]
         [Test]
         public void MyTestMethod12NUnit()
         {
+            LoggerHandler.WriteToLog("Start MyTestMethod12NUnit");
             string signature = Resource1.Signature;
             LoginPageStep.SignIn(user2.Email, user2.Password);
             InBoxPageStep.ChooseSettings();
@@ -146,12 +159,14 @@ namespace Tests2
             InBoxPageStep.CloseFormForMail();
             InBoxPageStep.ChooseSettings();
             GeneralPageStep.DeleteSignature();
+            LoggerHandler.WriteToLog("Finish MyTestMethod12NUnit");
         }
 
-       
+        [Ignore("")]
         [Test]
         public void MyTestMethod5NUnit()
         {
+            LoggerHandler.WriteToLog("Start MyTestMethod12NUnit");
             LoginPageStep.SignIn(user3.Email, user3.Password);
             InBoxPageStep.AddEmoticons(user1.Email, "Emoticons");
             Assert.IsTrue(InBoxPageStep.EmoticonsIsPresent());
@@ -161,6 +176,7 @@ namespace Tests2
             LoginPageStep.SignIn(user1.Email, user1.Password);
             InBoxPageStep.ClickOnLinkInMail(user3.Email);
             Assert.IsTrue(InBoxPageStep.EmoticonsIsPresentInMail());
+            LoggerHandler.WriteToLog("Finish MyTestMethod5NUnit");
         }
 
     }

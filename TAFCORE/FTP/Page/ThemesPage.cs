@@ -10,13 +10,13 @@ namespace FTP.Page
 {
     class ThemesPage
     {
-        public Link LinkSetThemes { get; private set; } = new Link(By.XPath("//a[contains(text(),'Set Theme')]"));
-        public Button ButtonMyPhoto { get; private set; } = new Button(By.XPath("//div[text()='My Photos']"));
-        public Button ButtonUploadPhoto { get; private set; } = new Button(By.XPath("//div[text()='Upload a photo']"));
-        public Button ButtonSelectedPhotoFromComputer { get; private set; } = new Button(By.XPath("//div[text()='Select a photo from your computer']"));
-        public Label LabelMessage { get; private set; } = new Label(By.XPath("//span[contains(text(),'There was an upload error.')]"));
-        public Button ButtonClose { get; private set; } = new Button(By.XPath("//div[@aria-label='Close']"));
-        public Button ButtonClose2 { get; private set; } = new Button(By.XPath("//span[@aria-label='Close']"));
+        public Link LinkSetThemes { get; private set; } = new Link(By.XPath("//a[contains(text(),'Set Theme')]"), "LinkSetThemes");
+        public Button ButtonMyPhoto { get; private set; } = new Button(By.XPath("//div[text()='My Photos']"), "ButtonMyPhoto");
+        public Button ButtonUploadPhoto { get; private set; } = new Button(By.XPath("//div[text()='Upload a photo']"), "ButtonUploadPhoto");
+        public Button ButtonSelectedPhotoFromComputer { get; private set; } = new Button(By.XPath("//div[text()='Select a photo from your computer']"), "ButtonSelectedPhotoFromComputer");
+        public Label LabelMessage { get; private set; } = new Label(By.XPath("//span[contains(text(),'There was an upload error.')]"), "LabelMessage");
+        public Button ButtonClose { get; private set; } = new Button(By.XPath("//div[@aria-label='Close']"), "ButtonClose");
+        public Button ButtonClose2 { get; private set; } = new Button(By.XPath("//span[@aria-label='Close']"), "ButtonClose2");
 
         public ThemesPage()
         {

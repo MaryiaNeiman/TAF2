@@ -15,11 +15,11 @@ namespace FTP.Page
     {
 
 
-        public Button ButtonNext { get; private set; } = new Button(By.Id("next"));
-        public Button ButtonSignIn { get; private set; } = new Button(By.Id("signIn"));
-        public TextBox TbEmail { get; private set; } = new TextBox(By.Id("Email"));
-        public TextBox TbPassword { get; private set; } = new TextBox(By.Id("Passwd"));
-        public Link Link { get; private set; } = new Link(By.XPath("//a[@id='account-chooser-link']"));
+        public Button ButtonNext { get; private set; } = new Button(By.Id("next")," Next");
+        public Button ButtonSignIn { get; private set; } = new Button(By.Id("signIn")," Sing In");
+        public TextBox TbEmail { get; private set; } = new TextBox(By.Id("Email"), "Email");
+        public TextBox TbPassword { get; private set; } = new TextBox(By.Id("Passwd"),"Password");
+        public Link Link { get; private set; } = new Link(By.XPath("//a[@id='account-chooser-link']"), "Account Chooser Link ");
 
 
         public LoginPage(string url) : base(url)

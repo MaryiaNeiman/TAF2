@@ -14,26 +14,26 @@ namespace FTP.Page
 {
     class InBoxPage : BasePage
     {
-        public Button ButtonCompose { get;  private set;} = new Button(By.XPath("//div[@gh='cm']"));
-        public TextBox TbRecipient { get; private set; } = new TextBox(By.XPath("//textarea[@name='to']"));
-        public TextBox TbSubject { get; private set; } = new TextBox(By.Name("subjectbox"));
-        public TextBox TbText { get; private set; } = new TextBox(By.XPath("//div[@role='textbox']"));
-        public Button ButtonSend { get; private set; } = new Button(By.XPath("//div[@class='T-I J-J5-Ji aoO T-I-atl L3']"));
-        public Button ButtonIcon { get; private set; } = new Button(By.XPath("//span[@class='gb_3a gbii']"));
-        public Button ButtonSignOut { get; private set; } = new Button(By.XPath("//a[contains(.,'Sign out')]"));
+        public Button ButtonCompose { get;  private set;} = new Button(By.XPath("//div[@gh='cm']"), "ButtonCompose");
+        public TextBox TbRecipient { get; private set; } = new TextBox(By.XPath("//textarea[@name='to']"), "TbRecipient");
+        public TextBox TbSubject { get; private set; } = new TextBox(By.Name("subjectbox"), "TbSubject");
+        public TextBox TbText { get; private set; } = new TextBox(By.XPath("//div[@role='textbox']"), "TbText");
+        public Button ButtonSend { get; private set; } = new Button(By.XPath("//div[@class='T-I J-J5-Ji aoO T-I-atl L3']"), "ButtonSend");
+        public Button ButtonIcon { get; private set; } = new Button(By.XPath("//span[@class='gb_3a gbii']"), "ButtonIcon");
+        public Button ButtonSignOut { get; private set; } = new Button(By.XPath("//a[contains(.,'Sign out')]"), "ButtonSignOut");
         public CheckBox ChBox { get; set; } 
-        public Button ButtonSpam { get; private set; } = new Button(By.XPath("//div[@class='asl T-I-J3 J-J5-Ji']"));
-        public Button ButtonNotSpam { get; private set; } = new Button(By.XPath("//div[text()='Not spam']"));
-        public Button ButtonDelete { get; private set; } = new Button(By.XPath("//div[@class='ar9 T-I-J3 J-J5-Ji']"));
+        public Button ButtonSpam { get; private set; } = new Button(By.XPath("//div[@class='asl T-I-J3 J-J5-Ji']"), "ButtonSpam");
+        public Button ButtonNotSpam { get; private set; } = new Button(By.XPath("//div[text()='Not spam']"), "ButtonNotSpam");
+        public Button ButtonDelete { get; private set; } = new Button(By.XPath("//div[@class='ar9 T-I-J3 J-J5-Ji']"), "ButtonDelete");
         public Link Letter { get; set; } 
-        public Button ButtonAttach { get; private set; } = new Button(By.XPath("//div[@aria-label='Attach files']"));
-        public Label LableAlertBigFile { get; private set; } = new Label(By.XPath("//div[@class='Kj-JD-K7 Kj-JD-K7-GIHV4']"));
-        public Button ButtonCancel { get; private set; } = new Button(By.XPath("//button[@name='cancel']"));
-        public TextBox TbSignature { get; private set; } = new TextBox(By.XPath("//div[@class='gmail_signature']/div"));
-        public Button ButtonClose { get; private set; } = new Button(By.XPath("//img[@alt='Close']"));
-        public Button ButtonEmoticons { get; private set; } = new Button(By.XPath("//div[@aria-label='Insert emoticon ‪(Ctrl-Shift-2)‬']"));
-        public Label LabelEmoticons { get; private set; } = new Label(By.XPath("//div[@class='a8u']"));
-        public Label LanelIcon { get; private set; } = new Label(By.XPath("//img[@class='CToWUd']"));
+        public Button ButtonAttach { get; private set; } = new Button(By.XPath("//div[@aria-label='Attach files']"), "ButtonAttach");
+        public Label LableAlertBigFile { get; private set; } = new Label(By.XPath("//div[@class='Kj-JD-K7 Kj-JD-K7-GIHV4']"), "LableAlertBigFile");
+        public Button ButtonCancel { get; private set; } = new Button(By.XPath("//button[@name='cancel']"), "ButtonCancel");
+        public TextBox TbSignature { get; private set; } = new TextBox(By.XPath("//div[@class='gmail_signature']/div"), "TbSignature");
+        public Button ButtonClose { get; private set; } = new Button(By.XPath("//img[@alt='Close']"), "ButtonClose");
+        public Button ButtonEmoticons { get; private set; } = new Button(By.XPath("//div[@aria-label='Insert emoticon ‪(Ctrl-Shift-2)‬']"),"ButtonEmoticons");
+        public Label LabelEmoticons { get; private set; } = new Label(By.XPath("//div[@class='a8u']"), "LabelEmoticons");
+        public Label LanelIcon { get; private set; } = new Label(By.XPath("//img[@class='CToWUd']"), "LanelIcon");
 
         public InBoxPage()
         {

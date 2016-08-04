@@ -14,10 +14,10 @@ namespace FTP.Page
 {
     public class SettingPage : BasePage
     {
-        public Link LinkForwardSetting { get; private set; } = new Link(By.XPath("//a[contains(.,'Forwarding and POP/IMAP')]"));
-        public Link LinkThemes { get; private set; } = new Link(By.XPath("//a[contains(.,'Themes')]"));
+        public Link LinkForwardSetting { get; private set; } = new Link(By.XPath("//a[contains(.,'Forwarding and POP/IMAP')]"), "LinkForwardSetting");
+        public Link LinkThemes { get; private set; } = new Link(By.XPath("//a[contains(.,'Themes')]"), "LinkThemes");
         public Button ButtonDelete { get; set; } 
-        public Link LinkGeneral { get; private set; } = new Link(By.XPath("//a[contains(.,'General')]"));
+        public Link LinkGeneral { get; private set; } = new Link(By.XPath("//a[contains(.,'General')]"), "LinkGeneral");
 
         public SettingPage()
         {

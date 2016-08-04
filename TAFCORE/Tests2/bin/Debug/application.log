@@ -5,3 +5,607 @@
 2016-08-03 15:57:38,709 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click
 2016-08-03 15:57:40,291 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text
 2016-08-03 15:57:40,614 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text
+2016-08-04 10:37:36,295 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text
+2016-08-04 10:37:57,940 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text
+2016-08-04 10:38:39,225 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text
+2016-08-04 10:38:39,957 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click
+2016-08-04 10:38:41,050 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text
+2016-08-04 10:38:41,620 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click
+2016-08-04 10:38:43,615 ERROR TAFCORE.Utility.Logger.LoggerHandler - RadioButton Unclickable
+OpenQA.Selenium.WebDriverException: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:7055/hub/session/43501813-a088-4582-b57e-0156cd700437/element. The status of the exception was ConnectionClosed, and the message was: The underlying connection was closed: The connection was closed unexpectedly. ---> System.Net.WebException: The underlying connection was closed: The connection was closed unexpectedly.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Firefox.FirefoxDriverCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TAFCORE.Elements.Element.WaitUntilVisible(By by) in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Element.cs:line 59
+   at TAFCORE.Elements.RadioButton.Click() in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\RadioButton.cs:line 20
+2016-08-04 10:50:20,349 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text
+2016-08-04 10:50:21,055 INFO TAFCORE.Utility.Logger.LoggerHandler - Button ClickNext
+2016-08-04 10:50:21,712 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text
+2016-08-04 10:50:22,389 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Clickbutton
+2016-08-04 11:58:11,958 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod11NUnit
+2016-08-04 11:58:12,258 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 11:58:13,184 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 11:58:14,033 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 11:58:14,652 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 11:58:18,559 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCompose
+2016-08-04 11:58:20,774 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbRecipient
+2016-08-04 11:58:22,407 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbSubject
+2016-08-04 11:58:22,748 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbText
+2016-08-04 11:58:23,303 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSend
+2016-08-04 11:58:23,536 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 11:58:24,726 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 11:58:28,663 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Account Chooser Link  Click
+2016-08-04 11:58:29,207 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 11:58:29,639 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 11:58:29,988 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 11:58:30,744 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 11:58:31,247 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 11:58:39,059 INFO TAFCORE.Utility.Logger.LoggerHandler - CheckBox  Selected
+2016-08-04 11:58:39,604 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSpam
+2016-08-04 11:58:40,722 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonNotSpam
+2016-08-04 11:58:41,477 INFO TAFCORE.Utility.Logger.LoggerHandler - Finish MyTestMethod11NUnit
+2016-08-04 11:58:41,479 INFO TAFCORE.Utility.Logger.LoggerHandler - Start TestCleanup
+2016-08-04 11:58:41,639 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 11:58:42,815 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 11:58:55,667 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 11:58:55,871 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 11:58:56,019 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 11:58:56,768 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 11:58:57,251 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 11:59:15,728 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonDelete
+2016-08-04 11:59:15,877 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 11:59:17,082 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 11:59:26,262 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod12NUnit
+2016-08-04 11:59:26,649 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 11:59:27,736 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 11:59:28,270 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 11:59:28,899 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 11:59:34,176 INFO TAFCORE.Utility.Logger.LoggerHandler - RadioButton was RbSignature1 clicked
+2016-08-04 11:59:35,479 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbText in GeneralPage
+2016-08-04 11:59:39,869 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSave in GeneralPage
+2016-08-04 11:59:44,647 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCompose
+2016-08-04 11:59:49,025 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonClose
+2016-08-04 11:59:54,659 INFO TAFCORE.Utility.Logger.LoggerHandler - RadioButton was RbSignature0 clicked
+2016-08-04 11:59:56,275 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSave in GeneralPage
+2016-08-04 11:59:56,276 INFO TAFCORE.Utility.Logger.LoggerHandler - Finish MyTestMethod12NUnit
+2016-08-04 11:59:56,276 INFO TAFCORE.Utility.Logger.LoggerHandler - Start TestCleanup
+2016-08-04 11:59:57,223 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 11:59:58,433 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:00:01,376 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Account Chooser Link  Click
+2016-08-04 12:00:01,937 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:00:02,158 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:00:02,304 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:00:03,027 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:00:03,494 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:00:33,392 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:00:34,645 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:00:45,302 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod1NUnit
+2016-08-04 12:00:45,684 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:00:46,959 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:00:47,475 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:00:48,066 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:00:53,218 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCompose
+2016-08-04 12:00:54,837 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbRecipient
+2016-08-04 12:00:55,334 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbSubject
+2016-08-04 12:00:55,687 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbText
+2016-08-04 12:00:56,032 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSend
+2016-08-04 12:00:56,608 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:00:57,858 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:01:02,088 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Account Chooser Link  Click
+2016-08-04 12:01:02,597 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:01:03,016 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:01:03,513 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:01:04,195 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:01:04,640 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:01:11,825 INFO TAFCORE.Utility.Logger.LoggerHandler - CheckBox  Selected
+2016-08-04 12:01:12,324 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSpam
+2016-08-04 12:01:12,496 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:01:13,680 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:01:27,339 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:01:27,663 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:01:27,810 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:01:28,557 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:01:29,038 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:01:34,375 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCompose
+2016-08-04 12:01:36,290 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbRecipient
+2016-08-04 12:01:36,486 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbSubject
+2016-08-04 12:01:36,724 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbText
+2016-08-04 12:01:37,018 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSend
+2016-08-04 12:01:37,240 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:01:38,549 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:01:52,470 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:01:53,162 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:01:53,308 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:01:54,269 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:01:54,916 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:02:08,736 INFO TAFCORE.Utility.Logger.LoggerHandler - Start TestCleanup
+2016-08-04 12:02:08,937 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:02:10,160 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:02:24,268 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:02:24,589 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:02:24,730 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:02:25,481 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:02:25,951 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:02:31,664 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonNotSpam
+2016-08-04 12:02:38,589 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonDelete
+2016-08-04 12:02:38,735 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:02:39,989 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:02:51,203 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod3NUnit
+2016-08-04 12:02:51,575 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:02:53,163 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:02:53,787 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:02:54,401 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:02:58,743 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCompose
+2016-08-04 12:03:00,287 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbRecipient
+2016-08-04 12:03:01,926 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbSubject
+2016-08-04 12:03:02,667 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbText
+2016-08-04 12:03:04,086 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonAttach
+2016-08-04 12:03:13,235 ERROR TAFCORE.Utility.Logger.LoggerHandler - Button ButtonSend Unclickable
+OpenQA.Selenium.WebDriverException: Unexpected error. Element is not clickable at point (699, 891). Other element would receive the click: <div aria-hidden="true" style="opacity: 0.75; width: 1280px; height: 914px;" class="Kj-JD-Jh"></div>
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at TAFCORE.Elements.Button.Click() in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Button.cs:line 36
+2016-08-04 12:03:13,512 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCancel
+2016-08-04 12:03:13,513 INFO TAFCORE.Utility.Logger.LoggerHandler - Finish MyTestMethod2NUnit
+2016-08-04 12:03:13,513 INFO TAFCORE.Utility.Logger.LoggerHandler - Start TestCleanup
+2016-08-04 12:03:13,758 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:03:15,048 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:03:19,494 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Account Chooser Link  Click
+2016-08-04 12:03:20,083 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:03:20,513 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:03:20,701 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:03:21,454 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:03:21,970 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:03:51,843 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:03:53,191 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:04:05,432 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod4NUnit
+2016-08-04 12:04:05,957 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:04:06,983 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:04:07,634 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:04:08,214 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:04:14,776 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkThemes Click
+2016-08-04 12:04:16,540 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkSetThemes Click
+2016-08-04 12:04:17,740 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonMyPhoto
+2016-08-04 12:04:19,627 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonUploadPhoto
+2016-08-04 12:04:20,957 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSelectedPhotoFromComputer
+2016-08-04 12:04:29,850 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonClose
+2016-08-04 12:04:30,203 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonClose2
+2016-08-04 12:04:30,203 INFO TAFCORE.Utility.Logger.LoggerHandler - Finish MyTestMethod4NUnit
+2016-08-04 12:04:30,204 INFO TAFCORE.Utility.Logger.LoggerHandler - Start TestCleanup
+2016-08-04 12:04:30,468 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:04:31,742 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:04:35,676 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Account Chooser Link  Click
+2016-08-04 12:04:36,246 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:04:36,589 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:04:36,771 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:04:37,579 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:04:38,039 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:05:07,514 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:05:08,855 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:05:22,327 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod12NUnit
+2016-08-04 12:05:22,743 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:05:23,688 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:05:25,192 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:05:25,784 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:05:31,147 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCompose
+2016-08-04 12:05:32,673 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbRecipient
+2016-08-04 12:05:33,811 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbSubject
+2016-08-04 12:05:34,800 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonEmoticons
+2016-08-04 12:05:35,891 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click 
+2016-08-04 12:05:36,331 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click 
+2016-08-04 12:05:37,108 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click 
+2016-08-04 12:05:37,902 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSend
+2016-08-04 12:05:38,358 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:05:39,574 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:05:42,571 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Account Chooser Link  Click
+2016-08-04 12:05:43,121 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:05:43,341 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:05:43,466 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:05:44,223 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:05:44,861 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:05:52,900 INFO TAFCORE.Utility.Logger.LoggerHandler - Link  Click
+2016-08-04 12:05:53,411 INFO TAFCORE.Utility.Logger.LoggerHandler - Finish MyTestMethod5NUnit
+2016-08-04 12:05:53,411 INFO TAFCORE.Utility.Logger.LoggerHandler - Start TestCleanup
+2016-08-04 12:05:54,154 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:05:55,899 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:06:09,007 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:06:09,246 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:06:09,430 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:06:10,166 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:06:10,905 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:06:17,109 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonNotSpam
+2016-08-04 12:06:24,091 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonDelete
+2016-08-04 12:06:24,249 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:06:25,479 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:06:36,799 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod1NUnit
+2016-08-04 12:06:37,190 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:06:38,409 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:06:40,675 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:06:41,545 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:07:26,377 ERROR TAFCORE.Utility.Logger.LoggerHandler - Link LinkForwardSetting Unclickable
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[contains(.,'Forwarding and POP/IMAP')]"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TAFCORE.Elements.Element.WaitUntilVisible(By by) in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Element.cs:line 60
+   at TAFCORE.Elements.Link.Click() in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Link.cs:line 27
+2016-08-04 12:07:57,630 ERROR TAFCORE.Utility.Logger.LoggerHandler - Button ButtonAddForwordingAddress Unclickable
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@act='add']"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TAFCORE.Elements.Element.WaitUntilVisible(By by) in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Element.cs:line 60
+   at TAFCORE.Elements.Button.Click() in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Button.cs:line 34
+2016-08-04 12:08:28,888 ERROR TAFCORE.Utility.Logger.LoggerHandler - Text can't be enter in TbEmail
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@class='PN']/input"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TAFCORE.Elements.Element.WaitUntilVisible(By by) in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Element.cs:line 60
+   at TAFCORE.Elements.TextBox.ClearAndType(String text) in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\TextBox.cs:line 45
+2016-08-04 12:09:01,085 ERROR TAFCORE.Utility.Logger.LoggerHandler - Button ButtonNext Unclickable
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//button[@name='next']"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TAFCORE.Elements.Element.WaitUntilVisible(By by) in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Element.cs:line 60
+   at TAFCORE.Elements.Button.Click() in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Button.cs:line 34
+2016-08-04 12:09:32,342 ERROR TAFCORE.Utility.Logger.LoggerHandler - Button  Unclickable
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@value='Proceed']"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TAFCORE.Elements.Element.WaitUntilVisible(By by) in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Element.cs:line 60
+   at TAFCORE.Elements.Button.Click() in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Button.cs:line 34
+2016-08-04 12:10:03,705 ERROR TAFCORE.Utility.Logger.LoggerHandler - Button  Unclickable
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//button[@name='ok']"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TAFCORE.Elements.Element.WaitUntilVisible(By by) in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Element.cs:line 60
+   at TAFCORE.Elements.Button.Click() in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Button.cs:line 34
+2016-08-04 12:10:03,940 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:10:05,207 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:10:09,556 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Account Chooser Link  Click
+2016-08-04 12:10:10,183 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:10:10,720 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:10:10,876 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:10:11,618 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:10:12,094 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:10:45,817 ERROR TAFCORE.Utility.Logger.LoggerHandler - Link  Unclickable
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[@email='forwarding-noreply@google.com']"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TAFCORE.Elements.Element.WaitUntilVisible(By by) in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Element.cs:line 60
+   at TAFCORE.Elements.Link.Click() in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Link.cs:line 27
+2016-08-04 12:11:18,073 ERROR TAFCORE.Utility.Logger.LoggerHandler - Link Link in Message Unclickable
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[4]"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TAFCORE.Elements.Element.WaitUntilVisible(By by) in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Element.cs:line 60
+   at TAFCORE.Elements.Link.Click() in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Link.cs:line 27
+2016-08-04 12:11:48,252 ERROR TAFCORE.Utility.Logger.LoggerHandler - Button ButtonConfirm in Message  Unclickable
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TAFCORE.Elements.Element.WaitUntilVisible(By by) in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Element.cs:line 60
+   at TAFCORE.Elements.Button.Click() in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Button.cs:line 34
+2016-08-04 12:11:48,467 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:11:49,673 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:12:03,638 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:12:04,095 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:12:04,240 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:12:04,991 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:12:05,439 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:12:12,039 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkForwardSetting Click
+2016-08-04 12:12:36,841 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod1NUnit
+2016-08-04 12:12:37,142 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:12:37,954 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:12:39,388 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:12:40,025 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:12:45,984 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkForwardSetting Click
+2016-08-04 12:12:46,852 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonAddForwordingAddress
+2016-08-04 12:12:47,762 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbEmail
+2016-08-04 12:12:48,296 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonNext
+2016-08-04 12:12:51,561 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click 
+2016-08-04 12:12:52,296 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click 
+2016-08-04 12:12:52,642 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:12:53,937 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:12:58,237 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Account Chooser Link  Click
+2016-08-04 12:12:58,743 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:12:59,349 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:12:59,523 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:13:00,589 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:13:01,023 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:13:06,389 INFO TAFCORE.Utility.Logger.LoggerHandler - Link  Click
+2016-08-04 12:13:08,865 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Link in Message Click
+2016-08-04 12:13:11,262 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonConfirm in Message 
+2016-08-04 12:13:11,499 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:13:12,690 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:13:27,044 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:13:27,555 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:13:27,735 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:13:28,461 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:13:28,984 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:13:35,613 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkForwardSetting Click
+2016-08-04 12:13:37,392 INFO TAFCORE.Utility.Logger.LoggerHandler - RadioButton was RbForwordCopy clicked
+2016-08-04 12:13:37,953 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSaveChanges
+2016-08-04 12:13:39,377 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkForwardSetting Click
+2016-08-04 12:13:40,200 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkCreatingFilter Click
+2016-08-04 12:13:40,726 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbEmail2
+2016-08-04 12:13:41,065 INFO TAFCORE.Utility.Logger.LoggerHandler - CheckBox  Selected
+2016-08-04 12:13:41,323 INFO TAFCORE.Utility.Logger.LoggerHandler - Link  Click
+2016-08-04 12:13:42,284 INFO TAFCORE.Utility.Logger.LoggerHandler - CheckBox  Selected
+2016-08-04 12:13:42,691 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click 
+2016-08-04 12:13:42,873 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:13:44,104 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:13:58,451 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:13:58,877 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:13:59,018 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:14:00,164 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:14:00,727 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:14:05,082 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCompose
+2016-08-04 12:14:06,150 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbRecipient
+2016-08-04 12:14:07,876 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbSubject
+2016-08-04 12:14:08,085 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbText
+2016-08-04 12:14:08,405 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSend
+2016-08-04 12:14:08,763 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCompose
+2016-08-04 12:14:19,802 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbRecipient
+2016-08-04 12:14:19,954 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbSubject
+2016-08-04 12:14:20,140 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbText
+2016-08-04 12:14:20,523 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonAttach
+2016-08-04 12:14:29,451 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSend
+2016-08-04 12:14:29,620 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:15:00,868 ERROR TAFCORE.Utility.Logger.LoggerHandler - Button ButtonSignOut Unclickable
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TAFCORE.Elements.Element.WaitUntilVisible(By by) in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Element.cs:line 60
+   at TAFCORE.Elements.Button.Click() in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Button.cs:line 34
+2016-08-04 12:19:18,943 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod1NUnit
+2016-08-04 12:19:19,407 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:19:20,294 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:19:21,515 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:19:22,068 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:19:28,778 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkForwardSetting Click
+2016-08-04 12:19:30,359 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonAddForwordingAddress
+2016-08-04 12:19:30,806 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbEmail
+2016-08-04 12:19:31,321 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonNext
+2016-08-04 12:19:33,388 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click 
+2016-08-04 12:19:34,463 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click 
+2016-08-04 12:19:34,704 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:19:36,084 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:19:40,385 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Account Chooser Link  Click
+2016-08-04 12:19:40,936 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:19:41,357 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:19:41,522 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:19:42,260 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:19:42,802 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:19:47,874 INFO TAFCORE.Utility.Logger.LoggerHandler - Link  Click
+2016-08-04 12:19:49,398 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Link in Message Click
+2016-08-04 12:19:52,144 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonConfirm in Message 
+2016-08-04 12:19:52,438 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:19:53,683 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:20:07,847 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:20:08,274 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:20:08,419 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:20:09,143 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:20:09,580 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:20:16,160 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkForwardSetting Click
+2016-08-04 12:20:17,873 INFO TAFCORE.Utility.Logger.LoggerHandler - RadioButton was RbForwordCopy clicked
+2016-08-04 12:20:18,337 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSaveChanges
+2016-08-04 12:20:19,750 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkForwardSetting Click
+2016-08-04 12:20:30,691 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkCreatingFilter Click
+2016-08-04 12:20:31,197 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbEmail2
+2016-08-04 12:20:31,471 INFO TAFCORE.Utility.Logger.LoggerHandler - CheckBox  Selected
+2016-08-04 12:20:31,648 INFO TAFCORE.Utility.Logger.LoggerHandler - Link  Click
+2016-08-04 12:20:32,201 INFO TAFCORE.Utility.Logger.LoggerHandler - CheckBox  Selected
+2016-08-04 12:20:32,450 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click 
+2016-08-04 12:20:32,622 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:20:33,838 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:20:47,815 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:20:48,524 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:20:48,666 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:20:50,236 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:20:50,724 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:20:56,301 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCompose
+2016-08-04 12:20:58,138 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbRecipient
+2016-08-04 12:20:58,450 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbSubject
+2016-08-04 12:20:58,757 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbText
+2016-08-04 12:20:59,105 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSend
+2016-08-04 12:20:59,583 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCompose
+2016-08-04 12:21:00,400 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbRecipient
+2016-08-04 12:21:00,562 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbSubject
+2016-08-04 12:21:00,870 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbText
+2016-08-04 12:21:01,606 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonAttach
+2016-08-04 12:21:11,000 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSend
+2016-08-04 12:21:11,214 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:21:12,435 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:21:27,479 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:21:27,910 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:21:28,058 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:21:28,989 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:21:29,408 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:21:34,317 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:21:36,275 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:21:50,248 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:21:50,668 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:21:50,811 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:21:51,661 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:21:52,120 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:21:57,856 INFO TAFCORE.Utility.Logger.LoggerHandler - Finish MyTestMethod1NUnit
+2016-08-04 12:21:58,103 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:21:59,280 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:22:13,491 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:22:13,813 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:22:13,995 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:22:14,934 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:22:15,392 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:22:21,623 INFO TAFCORE.Utility.Logger.LoggerHandler - Link LinkForwardSetting Click
+2016-08-04 12:22:23,440 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click 
+2016-08-04 12:22:29,630 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonDelete
+2016-08-04 12:22:36,465 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonDelete
+2016-08-04 12:22:36,630 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:22:37,828 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 12:22:50,912 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 12:22:51,192 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 12:22:51,597 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 12:22:52,262 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 12:22:52,731 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 12:22:59,728 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonDelete
+2016-08-04 12:23:05,005 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Search in ImportantPage
+2016-08-04 12:23:05,231 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSearch in ImportantPage
+2016-08-04 12:23:47,344 ERROR TAFCORE.Utility.Logger.LoggerHandler - Button ButtonDelete in ImportantPage Unclickable
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[text()='Delete forever']"}
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at TAFCORE.Elements.Element.WaitUntilVisible(By by) in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Element.cs:line 60
+   at TAFCORE.Elements.Button.Click() in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Button.cs:line 34
+2016-08-04 12:23:47,571 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 12:23:48,774 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 13:52:10,685 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod11NUnit
+2016-08-04 13:52:11,033 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 13:52:11,739 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 13:52:12,461 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 13:52:13,099 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 13:52:17,421 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCompose
+2016-08-04 13:52:20,006 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbRecipient
+2016-08-04 13:52:20,415 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbSubject
+2016-08-04 13:52:20,674 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbText
+2016-08-04 13:52:20,904 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSend
+2016-08-04 13:52:21,133 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 13:52:22,308 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 13:52:26,344 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Account Chooser Link  Click
+2016-08-04 13:52:26,925 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 13:52:27,230 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 13:52:27,377 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 13:52:28,287 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 13:52:28,891 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 13:52:36,587 INFO TAFCORE.Utility.Logger.LoggerHandler - CheckBox  Selected
+2016-08-04 13:52:37,222 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSpam
+2016-08-04 13:56:40,574 INFO TAFCORE.Utility.Logger.LoggerHandler - Start MyTestMethod3NUnit
+2016-08-04 13:56:40,877 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 13:56:41,503 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 13:56:42,564 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 13:56:43,101 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 13:56:48,334 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCompose
+2016-08-04 13:56:49,981 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbRecipient
+2016-08-04 13:56:50,445 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbSubject
+2016-08-04 13:56:50,725 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in TbText
+2016-08-04 13:56:51,145 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonAttach
+2016-08-04 13:57:00,867 ERROR TAFCORE.Utility.Logger.LoggerHandler - Button ButtonSend Unclickable
+OpenQA.Selenium.WebDriverException: Unexpected error. Element is not clickable at point (699, 891). Other element would receive the click: <div aria-hidden="true" style="opacity: 0.75; width: 1280px; height: 914px;" class="Kj-JD-Jh"></div>
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at TAFCORE.Elements.Button.Click() in C:\Users\Maryia_Neiman\Documents\Visual Studio 2015\Projects\TAFCORE\TAFCORE\Elements\Button.cs:line 36
+2016-08-04 13:57:01,156 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonCancel
+2016-08-04 13:57:01,157 INFO TAFCORE.Utility.Logger.LoggerHandler - Finish MyTestMethod2NUnit
+2016-08-04 13:57:01,158 INFO TAFCORE.Utility.Logger.LoggerHandler - Start TestCleanup
+2016-08-04 13:57:01,411 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 13:57:02,701 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut
+2016-08-04 13:57:06,642 INFO TAFCORE.Utility.Logger.LoggerHandler - Link Account Chooser Link  Click
+2016-08-04 13:57:07,584 INFO TAFCORE.Utility.Logger.LoggerHandler - Link AddAccount Click
+2016-08-04 13:57:08,118 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Email
+2016-08-04 13:57:08,335 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Next
+2016-08-04 13:57:09,065 INFO TAFCORE.Utility.Logger.LoggerHandler - Enter the text in Password
+2016-08-04 13:57:09,480 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click  Sing In
+2016-08-04 13:57:29,670 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonDelete
+2016-08-04 13:57:29,822 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonIcon
+2016-08-04 13:57:31,029 INFO TAFCORE.Utility.Logger.LoggerHandler - Button Click ButtonSignOut

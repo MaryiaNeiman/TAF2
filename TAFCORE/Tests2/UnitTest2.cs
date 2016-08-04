@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using FTP.BusinessObject;
 using FTP.Steps;
+using TAFCORE.Utility.Logger; 
 namespace Tests2
 {
     [TestFixture]
@@ -45,7 +46,7 @@ namespace Tests2
         [Test]
         public void MyTestMethod2()
         {
-
+            LoggerHandler.WriteToLog("Start MyTestMethod1NUnit");
             //1
 
             LoginPageStep.SignIn(user2.Email, user2.Password);
@@ -88,8 +89,8 @@ namespace Tests2
             InBoxPageStep.SignOutAccount();
             LoginPageStep.SignIn(user3.Email, user3.Password);
             Assert.IsTrue(InBoxPageStep.CheckLetter(user1.Email, "Test3"));
-
-
+       
+            LoggerHandler.WriteToLog("Finish MyTestMethod1NUnit");
         }
     }
 }

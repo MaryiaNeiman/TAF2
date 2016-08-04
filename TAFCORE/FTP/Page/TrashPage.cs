@@ -15,7 +15,7 @@ namespace FTP.Page
     {
         protected static string MAIL_TRASH = "https://mail.google.com/mail/u/0/#trash";
         public Link Letter { get; set; }
-        public Button ButtonDelete { get; private set; } = new Button(By.XPath("//div[text()='Delete forever']"));
+        public Button ButtonDelete { get; private set; } = new Button(By.XPath("//div[text()='Delete forever']"), "ButtonDelete");
 
         public TrashPage()
         {

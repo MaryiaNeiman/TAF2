@@ -16,14 +16,14 @@ namespace FTP.Page
 {
     public class ForwardPage : BasePage
     {
-        public Button ButtonAddForwordingAddress { get; private set; } = new Button(By.XPath("//input[@act='add']") );
-        public TextBox TbEmail { get; private set; } = new TextBox(By.XPath("//div[@class='PN']/input"));
-        public Button ButtonNext { get; private set; } = new Button(By.XPath("//button[@name='next']"));
-        public RadioButton RbForwordCopy { get; private set; } = new RadioButton(By.XPath("//span[contains(.,'Forward a copy of incoming mail to')]/../preceding-sibling::td/input"));
-        public Button ButtonSaveChanges { get; private set; } = new Button(By.XPath("//table/tbody/tr[4]/td/div/button[1]"));
-        public Link LinkForwardSetting { get; private set; } = new Link(By.XPath("//span[contains(.,'Review Settings')]"));
-        public Link LinkCreatingFilter { get; private set; } = new Link(By.XPath("//span[@act='filter']"));
-        public TextBox TbEmail2 { get; private set; } = new TextBox(By.XPath("//label[contains(.,'From')]/../following-sibling::span/input"));
+        public Button ButtonAddForwordingAddress { get; private set; } = new Button(By.XPath("//input[@act='add']"), "ButtonAddForwordingAddress");
+        public TextBox TbEmail { get; private set; } = new TextBox(By.XPath("//div[@class='PN']/input"), "TbEmail");
+        public Button ButtonNext { get; private set; } = new Button(By.XPath("//button[@name='next']"), "ButtonNext");
+        public RadioButton RbForwordCopy { get; private set; } = new RadioButton(By.XPath("//span[contains(.,'Forward a copy of incoming mail to')]/../preceding-sibling::td/input"), "RbForwordCopy");
+        public Button ButtonSaveChanges { get; private set; } = new Button(By.XPath("//table/tbody/tr[4]/td/div/button[1]"), "ButtonSaveChanges");
+        public Link LinkForwardSetting { get; private set; } = new Link(By.XPath("//span[contains(.,'Review Settings')]"), "LinkForwardSetting");
+        public Link LinkCreatingFilter { get; private set; } = new Link(By.XPath("//span[@act='filter']"), "LinkCreatingFilter");
+        public TextBox TbEmail2 { get; private set; } = new TextBox(By.XPath("//label[contains(.,'From')]/../following-sibling::span/input"), "TbEmail2");
 
 
 

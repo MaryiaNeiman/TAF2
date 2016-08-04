@@ -13,8 +13,11 @@ namespace TAFCORE.Elements
         public Link() { }
        
         public Link(By by) : base(by) { }
-        
 
+        public Link(By by,string name) : base(by)
+        {
+            this.name = name;
+        }
         public void Click()
         {
 
@@ -24,11 +27,11 @@ namespace TAFCORE.Elements
             WaitUntilVisible(this.by);
             WaitUntilClickable(this.by);
             WrappedElement.Click();
-            LoggerHandler.WriteToLog("Link Click");
+            LoggerHandler.WriteToLog($"Link {name} Click");
             }
             catch (Exception ex)
             {
-                LoggerHandler.WtiteErrorToLog("Link Unclickable", ex);
+                LoggerHandler.WtiteErrorToLog($"Link {name} Unclickable", ex);
             }
         }
     }

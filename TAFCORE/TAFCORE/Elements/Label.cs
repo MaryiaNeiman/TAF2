@@ -19,6 +19,11 @@ namespace TAFCORE.Elements
 
         }
 
+        public Label(By by,string name) : base(by)
+        {
+            this.name = name;
+        }
+
         void Click()
         {
             try
@@ -26,12 +31,12 @@ namespace TAFCORE.Elements
                 WaitUntilVisible(this.by);
                 WaitUntilClickable(this.by);
                 WrappedElement.Click();
-                LoggerHandler.WriteToLog("Label Click");
+                LoggerHandler.WriteToLog($"Label {name} Click");
 
             }
             catch (Exception ex)
             {
-                LoggerHandler.WtiteErrorToLog("Label Unclickable", ex);
+                LoggerHandler.WtiteErrorToLog($"Label {name} Unclickable", ex);
             }
         }
 

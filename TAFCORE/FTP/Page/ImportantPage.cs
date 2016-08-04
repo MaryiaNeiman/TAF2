@@ -13,9 +13,9 @@ namespace FTP.Page
     {
         protected static string MAIL_IMP = "https://mail.google.com/mail/u/0/#imp";
         public Link Letter { get; private set; } 
-        public TextBox Search { get; private set; } = new TextBox(By.XPath("//h2[text()='Search']/../descendant::input"));
-        public Button ButtonSearch { get; private set; } = new Button(By.XPath("//button[@aria-label='Search Gmail']"));
-        public Button ButtonDelete { get; private set; } = new Button(By.XPath("//div[text()='Delete forever']"));
+        public TextBox Search { get; private set; } = new TextBox(By.XPath("//h2[text()='Search']/../descendant::input"), "Search in ImportantPage");
+        public Button ButtonSearch { get; private set; } = new Button(By.XPath("//button[@aria-label='Search Gmail']"), "ButtonSearch in ImportantPage");
+        public Button ButtonDelete { get; private set; } = new Button(By.XPath("//div[text()='Delete forever']"), "ButtonDelete in ImportantPage");
 
         public ImportantPage()
         {

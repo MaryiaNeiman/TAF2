@@ -13,6 +13,10 @@ namespace TAFCORE.Elements
         public TextBox() { }
 
         public TextBox(By by) : base(by) { }
+        public TextBox(By by,string name) : base(by)
+        {
+            this.name = name;
+        }
 
         void Type(String text)
         {
@@ -23,7 +27,7 @@ namespace TAFCORE.Elements
             }
             catch (Exception ex)
             {
-                LoggerHandler.WtiteErrorToLog("Text can't be enter", ex);
+                LoggerHandler.WtiteErrorToLog($"Text can't be enter in {name}", ex);
             }
         }
 
@@ -41,11 +45,11 @@ namespace TAFCORE.Elements
                 WaitUntilVisible(this.by);
                 WrappedElement.Clear();
                 WrappedElement.SendKeys(text);
-                LoggerHandler.WriteToLog("Enter the text");
+                LoggerHandler.WriteToLog($"Enter the text in {name}");
             }
             catch (Exception ex)
             {
-                LoggerHandler.WtiteErrorToLog("Text can't be enter", ex);
+                LoggerHandler.WtiteErrorToLog($"Text can't be enter in {name}", ex);
             }
         }
 
@@ -57,7 +61,7 @@ namespace TAFCORE.Elements
             }
             catch (Exception ex)
             {
-                LoggerHandler.WtiteErrorToLog("Text is absent", ex);
+                LoggerHandler.WtiteErrorToLog("Text is absent in {name}", ex);
                 return null;
             }
         }

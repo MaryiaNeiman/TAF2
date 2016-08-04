@@ -11,6 +11,7 @@ namespace TAFCORE.Elements
 {
     public class CheckBox : Element
     {
+        
         public CheckBox()
         {
 
@@ -18,6 +19,11 @@ namespace TAFCORE.Elements
         public CheckBox(By by) : base(by)
         {
 
+        }
+
+        public CheckBox(By by,string name) : base(by)
+        {
+            this.name = name;
         }
 
         public void Select()
@@ -31,12 +37,12 @@ namespace TAFCORE.Elements
                     WaitUntilVisible(this.by);
                     WaitUntilClickable(this.by);
                     WrappedElement.Click();
-                    LoggerHandler.WriteToLog("CheckBox Selected");
+                    LoggerHandler.WriteToLog($"CheckBox {name} Selected");
                 }
             }
             catch(Exception ex)
             {
-                LoggerHandler.WtiteErrorToLog("CheckBox can't be select", ex);
+                LoggerHandler.WtiteErrorToLog($"CheckBox {name} can't be select", ex);
             }
         }
 

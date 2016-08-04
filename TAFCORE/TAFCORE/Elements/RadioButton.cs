@@ -13,6 +13,10 @@ namespace TAFCORE.Elements
         public RadioButton() { }
 
         public RadioButton(By by) : base(by) { }
+        public RadioButton(By by,string name) : base(by)
+        {
+            this.name = name;
+        }
         public void Click()
         {
             try
@@ -20,11 +24,11 @@ namespace TAFCORE.Elements
                 WaitUntilVisible(this.by);
                 WaitUntilClickable(this.by);
                 WrappedElement.Click();
-                LoggerHandler.WriteToLog("RadioButton Click");
+                LoggerHandler.WriteToLog($"RadioButton was {name} clicked");
             }
             catch (Exception ex)
             {
-                LoggerHandler.WtiteErrorToLog("RadioButton Unclickable", ex);
+                LoggerHandler.WtiteErrorToLog($"RadioButton wasn't {name} clicked", ex);
             }
         }
 

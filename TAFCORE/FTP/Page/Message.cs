@@ -12,8 +12,8 @@ namespace FTP.Page
 {
     public class Message : BasePage
     {
-        public Link Link { get; private set; } = new Link(By.XPath("//a[4]"));
-        public Button ButtonConfirm { get; private set; } = new Button(By.XPath("//input[@type='submit']"));
+        public Link Link { get; private set; } = new Link(By.XPath("//a[4]"), "Link in Message");
+        public Button ButtonConfirm { get; private set; } = new Button(By.XPath("//input[@type='submit']"), "ButtonConfirm in Message ");
 
         public Message()
         {

@@ -11,6 +11,7 @@ namespace TAFCORE.Elements
 {
     public abstract class Element
     {
+        protected string name;
         public By by { get; set; }
         public IWebElement WrappedElement
         {
