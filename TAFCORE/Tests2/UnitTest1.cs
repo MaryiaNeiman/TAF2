@@ -26,7 +26,7 @@ namespace Tests2
             //InBoxPageStep.GoToSpam();
             //InBoxPageStep.MoveMailFromSpam(user1.Email);
             //InBoxPageStep.DeleteAllMail();
-            InBoxPageStep.SignOutAccount();
+            //InBoxPageStep.SignOutAccount();
             /*LoginPageStep.SignIn(user2.Email, user2.Password);
             InBoxPageStep.DeleteAllMail();
             LoginPageStep.SignIn(user3.Email, user3.Password);
