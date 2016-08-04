@@ -48,7 +48,7 @@ namespace Tests2
             LoginPageStep.OpenGmail();
         }
 
-      
+        [Ignore("")]
         [Test]
         public void MyTestMethod1NUnit()
         {
@@ -126,7 +126,7 @@ namespace Tests2
             ThemePageStep.CloseWindow();
             LoggerHandler.WriteToLog("Finish MyTestMethod4NUnit");
         }
-        [Ignore("")]
+      
         [Test]
         public void MyTestMethod11NUnit()
         {

@@ -19,7 +19,6 @@ C:\Users\Maryia_Neiman\TAF2\TAFCORE\TAFCORE\bin\Debug\WebDriver.Support.dll
 C:\Users\Maryia_Neiman\TAF2\TAFCORE\TAFCORE\bin\Debug\log4net.xml
 C:\Users\Maryia_Neiman\TAF2\TAFCORE\TAFCORE\bin\Debug\WebDriver.xml
 C:\Users\Maryia_Neiman\TAF2\TAFCORE\TAFCORE\bin\Debug\WebDriver.Support.xml
-C:\Users\Maryia_Neiman\TAF2\TAFCORE\TAFCORE\obj\Debug\TAFCORE.csprojResolveAssemblyReference.cache
 C:\Users\Maryia_Neiman\TAF2\TAFCORE\TAFCORE\obj\Debug\Interop.AutoItX3Lib.dll
 C:\Users\Maryia_Neiman\TAF2\TAFCORE\TAFCORE\obj\Debug\TAFCORE.csproj.ResolveComReference.cache
 C:\Users\Maryia_Neiman\TAF2\TAFCORE\TAFCORE\obj\Debug\TAFCORE.dll
